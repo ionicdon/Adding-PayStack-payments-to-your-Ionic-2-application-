@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Toys Store
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding >
+
+  <ion-grid  > 
+  <ion-row >
+    <ion-col (click)="checkOut()"  >		
+   <img src="assets/imgs/mouse.jpg" />
+     <ion-label >Mouse Toy</ion-label>
+  <ion-label >NGN 5,000.00</ion-label>
+    </ion-col>
+    <ion-col  (click)="checkOut2()">	
+   <img  src="assets/imgs/sheep.jpg" />
+  <ion-label>Sheep Toy</ion-label>
+     <ion-label >NGN 7,500.00</ion-label>
+    </ion-col>
+  </ion-row>
+
+  </ion-grid>
+  
+  </ion-content>
